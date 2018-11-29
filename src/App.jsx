@@ -14,12 +14,9 @@ import {
  */
 // eslint-disable-next-line
 import './reset.css.js';
-import Navbar from './components/navbar';
 
 // Views/Routes
 import Home from './views/home';
-import Input from './views/input';
-import Matrix3D from './views/matrix3d';
 
 /**
  * Local Variables
@@ -35,16 +32,7 @@ class App extends React.Component<Props> {
     return (
       <Router>
         <div>
-          <Navbar />
           <Switch>
-            <Route
-              path="/p/input"
-              component={Input}
-            />
-            <Route
-              path="/p/matrix3d"
-              component={Matrix3D}
-            />
             <Route
               path="/"
               component={Home}
