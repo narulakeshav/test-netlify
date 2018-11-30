@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js --mode development --color",
-    "build": "webpack --mode production",
+    "build": "webpack --config webpack.config.prod.js",
     "flow": "flow"
   },
   "dependencies": {
@@ -24,7 +24,8 @@
     "react-hot-loader": "^4.3.11",
     "react-router-dom": "^4.3.1",
     "styled-components": "^3.4.10",
-    "webpack": "^4.20.2"
+    "webpack": "^4.20.2",
+    "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
