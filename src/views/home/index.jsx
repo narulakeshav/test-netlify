@@ -18,7 +18,7 @@ import { Page, Section, H2, Text } from '../../helpers/global';
  * Home Component
  */
 const Home = () => (
-  <Page bgGray>
+  <Page bgGray padding="0">
     <Section bg="#FFFFFF" padding="8rem 20%" alignCenter>
       <H2 marginBottom weightHeavy textDarker>Netlify Test</H2>
       <Text
